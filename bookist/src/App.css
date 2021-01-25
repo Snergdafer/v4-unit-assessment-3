@@ -1,0 +1,45 @@
+
+
+
+header {
+
+  width: 100vw;
+  height: 100px;
+  text-align: center;
+  box-shadow: 0 20px 6px rgb(190, 190, 190);
+}
+
+
+li {
+  list-style-type: none;
+}
+
+.everythingButTheHeader {
+  margin: 25px;
+  display: flex;
+  position: relative;
+}
+
+.allDaBooks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1320px;
+}
+
+.daBook {
+  width: 200px;
+  margin: 10px;
+}
+
+img {
+  width: 200px;
+}
+
+.daShelf {
+  position: absolute;
+  width: 500px;
+  right: 10px;
+  text-align: center;
+  border-left: 2px solid grey;
+  height: 100%;
+}
